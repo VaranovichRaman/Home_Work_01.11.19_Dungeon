@@ -24,6 +24,8 @@ namespace Dungeon
             CreateHero(3, 3, map);
             CreateDoor(5, 8, map);
             CreateMonster(5, 5, map);
+            ShowMap(map);
+            Console.ReadLine();
         }
         public static void CreateRoom(int baseX, int baseY, int x, int y, string [,] map)
         {
